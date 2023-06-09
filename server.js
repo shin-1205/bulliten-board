@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const PORT = 3050;
+const PORT = "https://bulliten-board.vercel.app/";
 const Thread = require("./models/Thread")
 
 app.use(express.json());
